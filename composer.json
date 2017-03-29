@@ -1,0 +1,23 @@
+{
+    "name": "ceoninternet/ab-test",
+    "description": "AB-split test package for laravel 5",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "René Askjær",
+            "email": "rene@ceoninternet.dk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support": "5.3.*",
+        "illuminate/console": "~5.3",
+        "illuminate/database": "~5.3",
+        "illuminate/http": "~5.3"
+    },
+    "autoload": {
+        "psr-4":{
+            "CeonInternet\\AB\\":"src/"
+        }
+    }
+}
